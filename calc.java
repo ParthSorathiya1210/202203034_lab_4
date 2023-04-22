@@ -12,7 +12,7 @@ public class calc extends Applet implements ActionListener {
     public void init() 
 	{
         t1 = new TextField(20);
-		b0 = new Button("0");
+	b0 = new Button("0");
         b1 = new Button("1");
         b2 = new Button("2");
         b3 = new Button("3");
@@ -22,13 +22,13 @@ public class calc extends Applet implements ActionListener {
         b7 = new Button("7");
         b8 = new Button("8");
         b9 = new Button("9");
-		mul = new Button("*");
+	mul = new Button("*");
         eq = new Button("=");
         add = new Button("+");
         sub = new Button("-");
         div = new Button("/");
         dot = new Button(".");
-		setLayout(null);
+	setLayout(null);
 
         add(t1);
         add(b7);
@@ -64,7 +64,6 @@ public class calc extends Applet implements ActionListener {
         sub.setBounds(186, 184, 44, 44);
         mul.setBounds(186, 132, 44, 44);
         div.setBounds(186, 80, 44, 44);
-
         b0.addActionListener(this);
         b1.addActionListener(this);
         b2.addActionListener(this);
